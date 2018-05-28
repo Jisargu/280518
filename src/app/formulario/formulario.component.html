@@ -1,0 +1,18 @@
+<div class="container color-dark">
+  <div class="col">
+    <p>{{textitoFormulario}}</p><!--Interpolation-->
+  </div>
+</div>
+<div class="container color-light">
+  <div class="col">
+    <form>
+      <input type="email" class="txt" name="correo_contacto" placeholder="Correo de contacto" [(ngModel)]="correo"> <!--2way data binding-->
+      <input type="text" class="txt" name="nombre_contacto" placeholder="Nombre de contacto" [(ngModel)]="nombre">
+      <input type="text" class="txt" name="apellido_contacto" placeholder="Apellido de contacto" [(ngModel)]="apellido">
+      <input type="number" class="txt" name="edad_contacto" placeholder="Edad de contacto" [(ngModel)]="edad">
+      <input type="text" class="txt" name="sexo_contacto" placeholder="Sexo de contacto" [(ngModel)]="sexo">
+      <input type="password" class="txt" name="password_contacto" placeholder="Password de contacto" [(ngModel)]="password">
+      <input type="submit" class="btn" [value]="submitText" (click)="addItem()"><!--property binding y event binding-->
+    </form>
+  </div>
+</div>

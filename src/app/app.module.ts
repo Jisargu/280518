@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MetasComponent } from './metas/metas.component';
 import { LizComponent } from './liz/liz.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MetasComponent,
-    LizComponent
+    LizComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

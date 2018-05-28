@@ -11,6 +11,7 @@ export class MetasComponent implements OnInit {
   itemCount: number = 4;
   textitoTitulo: string = "Agrega más cosas amiguito";
   btnText: string = 'Add an Item';
+  btnText2: string = 'Agregar un textito';
   metasText: string = 'My first life goal';
   metas = [];
 
